@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Abdurrahman Onat</title>
+		<style>
+			body{background: linear-gradient(90deg, #d53369 0%, #daae51 100%);}
+			.instagram {
+			
+			}
+			.foto{
+				width:350px;
+				margin-top: 150px;
+			}
+		</style>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="w3-third">
+			<div class="w3-container ">
+				<center><img src="pic.jpg" class="w3-circle foto"></center>
+			</div>
+			<div>
+				<center>
+					<div style="margin-top:80px;">
+						<i class="fa fa-twitter" style="font-size:100px;color:rgb(29, 155, 240);vertical-align:middle; margin-right:20px;" onclick="OpenTwitter();"></i>
+						<i class="fa fa-instagram instagram" style="display: inline-block;width: 100px;height: 100px;text-align: center;border-radius: 20px;color: #fff;font-size: 80px;line-height: 100px;vertical-align: middle;background: #d6249f;background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);box-shadow: 0px 3px 10px rgba(0,0,0,.25);" onclick="OpenInstagram();"></i>
+					</div>
+					
+				</center>
+			</div>
+		</div>
+		<div class="w3-twothird">
+			<h1>ABDURRAHMAN ONAT</h1>
+		</div>
+	<script>
+	function OpenTwitter(){window.open("https://www.twitter.com/The_MacAD","_blank");}
+	function OpenInstagram(){window.open("https://www.instagram.com/mekabeyi","_blank");}
+	</script>
+	</body>
+</html>
